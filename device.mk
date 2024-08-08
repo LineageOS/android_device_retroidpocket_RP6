@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-RP6-Overlay \
-    Settings-RP6-Overlay \
-    SettingsProvider-RP6-Overlay
+    Settings-RP6-Overlay
 
 # Recovery
 PRODUCT_PACKAGES += \
