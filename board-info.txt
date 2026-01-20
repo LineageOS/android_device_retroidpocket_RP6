@@ -1,0 +1,1 @@
+require board=kalama|RP6|Retroid Pocket 6
