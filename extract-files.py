@@ -17,6 +17,7 @@ module = ExtractUtilsModule(
     'RP6',
     'retroidpocket',
     namespace_imports=namespace_imports,
+    add_firmware_proprietary_file=True,
 )
 
 if __name__ == '__main__':
