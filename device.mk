@@ -7,6 +7,10 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
 
+# MCU
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/mcu/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.txt
+
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-RP6-Overlay \
