@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     Settings-RP6-Overlay \
     SettingsProvider-RP6-Overlay
 
+# Recovery
+PRODUCT_PACKAGES += \
+    recovery_rgb
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
