@@ -8,6 +8,9 @@ DEVICE_PATH := device/retroidpocket/RP6
 # Include the common OEM chipset BoardConfig.
 include device/ayn/qcs8550-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 360
+
 # DTBO
 TARGET_MERGE_DTBOS_WILDCARD := *retroid-pocket-6*
 
