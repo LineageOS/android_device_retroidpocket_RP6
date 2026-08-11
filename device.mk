@@ -10,6 +10,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_rgb
+
 # Joystick
 PRODUCT_PACKAGES += \
     left_stick_axis_swap
